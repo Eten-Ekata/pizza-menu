@@ -1,8 +1,11 @@
 import React from 'react'
 
 const Header = () => {
+    const style={}
   return (
-    <div>Header</div>
+    <header className="header">
+    <h1 style={style}>Fast React Pizza Co.</h1>
+  </header>
   )
 }
 
